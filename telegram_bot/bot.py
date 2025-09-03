@@ -10,7 +10,7 @@ from asgiref.sync import sync_to_async
 
 from student.models import Student  # Django allaqachon setup qilgan
 
-BOT_TOKEN = "8461684638:AAGy3Eq-EKGZnTAmMVNPtj_TQSkHrgTqJec"
+BOT_TOKEN = "8461684638:AAFL-YIZQKYPkgzqrtBdMohdlCXfTiwd0FY"
 
 bot = Bot(token=BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 dp = Dispatcher(storage=MemoryStorage())

@@ -5,7 +5,7 @@ class Student(models.Model):
     student_id = models.IntegerField(blank= True, null=True)
     first_name = models.CharField(max_length=150)
     last_name = models.CharField(max_length=150)
-    phone_number = models.CharField(max_length=20, unique=True)
+    phone_number = models.CharField(max_length=20)
     is_in_dormitory = models.BooleanField(default=False)
     parent_full_name = models.CharField(max_length=255, blank=True, null=True)
     arrival_time = models.DateTimeField(blank=True, null=True)
